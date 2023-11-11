@@ -3,6 +3,7 @@ Uses the python [Faker library](https://faker.readthedocs.io/en/master/) to gene
 It generates columns based on the product_types
 The columns are as follows 
 |-------column_name-------|
+|:-----------------------:|
 | Customer_id             |
 | order_id                |
 | prev_charms_count       |
@@ -22,6 +23,7 @@ If you add more product_types you will see additional columns
 #### Inputs parameters in the main section
 
 |------Input-------|------------description------------|
+|:-----------------|:---------------------------------:|
 | number_of_rows   | number of rows of data to generate|
 | product_types    | add more products type            |
 | customer_data    | data frame with customer_id column|
