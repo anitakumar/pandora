@@ -13,9 +13,10 @@ The columns are as follows
 | prev_rings_count        |
 | this_rings_count        |
 
-If you add more product_types you will see additional columns
+If you add more product_types you will see additional column.
+The code should produce the same dataset each time the code is executed.
 
-### How to create fake data
+### How to create synthetic data
 1. Open a Jupyter notebook pandora_synthetic_data.ipynb
 2. !pip install faker
 3. In the main section you can customize the inputs as follows
@@ -27,4 +28,8 @@ If you add more product_types you will see additional columns
 | number_of_rows   | number of rows of data to generate|
 | product_types    | products types example rings      |
 | customer_data    | data frame with customer_id column|
+
+#### Outputs
+
+The ouputs will be in outputs/out.csv folder
 
