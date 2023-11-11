@@ -1,4 +1,5 @@
-# Code to  create synthetic data for customers buying pandora jewellery
+# 
+## Code to  create synthetic data for customers buying pandora jewellery
 Uses the python [Faker library](https://faker.readthedocs.io/en/master/) to generate the synthetic data
 It generates columns based on the product_types
 The columns are as follows 
@@ -15,6 +16,10 @@ The columns are as follows
 
 If you add more product_types you will see additional column.
 The code should produce the same dataset each time the code is executed.
+
+## Assumptions
+1. Only date is used not datetime
+2. No duplicate rows
 
 ### How to create synthetic data
 1. Open a Jupyter notebook pandora_synthetic_data.ipynb
