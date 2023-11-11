@@ -1,8 +1,8 @@
-# Code to  create fake data for customers buying jewellery
+# Code to  create synthetic data for customers buying pandora jewellery
 Uses the python [Faker library](https://faker.readthedocs.io/en/master/) to generate the synthetic data
 It generates columns based on the product_types
 The columns are as follows 
-|-------column_name-------|
+|       Column_name       |
 |:-----------------------:|
 | Customer_id             |
 | order_id                |
@@ -16,15 +16,15 @@ The columns are as follows
 If you add more product_types you will see additional columns
 
 ### How to create fake data
-1. Open a Jupyter notebook pandora_fake_data.ipynb
+1. Open a Jupyter notebook pandora_synthetic_data.ipynb
 2. !pip install faker
 3. In the main section you can customize the inputs as follows
 
 #### Inputs parameters in the main section
 
-|------Input-------|------------description------------|
+|       Input      |            description            |
 |:-----------------|:---------------------------------:|
 | number_of_rows   | number of rows of data to generate|
-| product_types    | add more products type            |
+| product_types    | products types example rings      |
 | customer_data    | data frame with customer_id column|
 
