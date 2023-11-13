@@ -26,6 +26,7 @@ The code should produce the same dataset each time the code is executed.
 2. !pip install faker
 3. In the main section you can customize the inputs as follows
 
+
 #### Inputs parameters in the main section
 
 |       Input      |            description            |
@@ -34,7 +35,10 @@ The code should produce the same dataset each time the code is executed.
 | product_types    | products types example rings      |
 | customer_data    | data frame with customer_id column|
 
+#### Unit test
+One output file named outputs/out.csv is provided and used test to check against the new dataframes outputs/out_new.csv generated.
+
 #### Outputs
 
-The ouputs will be in outputs/out.csv folder
+The ouputs  will be in outputs folder. The new files will be named outputs/out_new.csv
 
